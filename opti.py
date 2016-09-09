@@ -4,7 +4,11 @@ Collection of optimization functions for contours.
 
 import math
 import numpy as np
-
+import sys
+'''
+from 	url = git://github.com/dmishin/tsp-solver.git
+'''
+sys.path.append('../tsp-solver')
 from tsp_solver.greedy_numpy import solve_tsp
 
 import contour_util
