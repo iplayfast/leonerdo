@@ -34,6 +34,7 @@ import os.path
 import sys
 
 # relative module
+sys.path.append('../opencv/samples/python')
 import video
 
 import gcoder
